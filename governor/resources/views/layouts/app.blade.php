@@ -13,12 +13,22 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
     </head>
     <body>
-    	<div class="container-fluid" id="scroller">
-    		@yield('checkpoint')
-    	</div>
     	
+	    <div class="container-fluid">
+	    	<div class="row no-gutters" id="scroller">
+	    		@yield('checkpoint')
+	    		@yield('checkpoint')
+	    		@yield('checkpoint')
+	    		@yield('checkpoint')
+	    		@yield('checkpoint')
+	    	</div>    
+	    </div>
+	    @include('partials.header')		
+	    @include('partials.footer')
+	    	
 
     	<!-- Optional JavaScript -->
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

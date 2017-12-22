@@ -1,5 +1,5 @@
-<div id="header">
+<div id="footer">
 	<div class="title">
-		Welcome
+		GoodBye
 	</div>
 </div>

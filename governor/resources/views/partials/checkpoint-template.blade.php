@@ -8,7 +8,7 @@
 				<img src="http://lorempixel.com/500/500">
 			</div>
 		</div>
-		<div class="col-6">
+		<div class="col-6 col-xs-12">
 			<div class="content">
 				<div class="title">
 					Title
