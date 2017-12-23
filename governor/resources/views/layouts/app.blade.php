@@ -18,12 +18,8 @@
     <body>
     	
 	    <div class="container-fluid">
-	    	<div class="row no-gutters" id="scroller">
-	    		@yield('checkpoint')
-	    		@yield('checkpoint')
-	    		@yield('checkpoint')
-	    		@yield('checkpoint')
-	    		@yield('checkpoint')
+	    	<div class="row no-gutters" id="content">
+	    		@yield('content')
 	    	</div>    
 	    </div>
 	    @include('partials.header')		

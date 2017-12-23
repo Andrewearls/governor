@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('partials.checkpoint-template');
-});
+Auth::routes();
+
+Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/checkpoint', 'CheckpointController@index')->name('checkpoint');
+Route::get('/checkpoint/edit', 'CheckpointController@index');
